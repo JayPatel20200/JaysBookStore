@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\JayBook.DataAccess\JayBook.DataAccess.csproj" />
     <ProjectReference Include="..\JayBook.Models\JayBook.Models.csproj" />
+    <ProjectReference Include="..\JayBook.Utility\JayBook.Utility.csproj" />
   </ItemGroup>
 
 </Project>
