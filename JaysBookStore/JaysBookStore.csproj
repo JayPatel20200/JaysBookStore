@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.17" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\JayBook.DataAccess\JayBook.DataAccess.csproj" />
+    <ProjectReference Include="..\JayBook.Models\JayBook.Models.csproj" />
+  </ItemGroup>
+
 </Project>
