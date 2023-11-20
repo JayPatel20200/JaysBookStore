@@ -140,3 +140,5 @@ Created new UnitOfWork and its interface file
  Created New model CoverType.cs 
  1846
  Created new class and interface for coverTypeRepository and added the migration - 20231120234643_CoverTypeDb
+ 1852
+ Created CoverTypeController and index and upsert 

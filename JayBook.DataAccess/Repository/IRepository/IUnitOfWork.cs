@@ -10,6 +10,7 @@ namespace JayBook.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category { get; }
         ISP_Call SP_Call { get; }
+        object CoverType { get; }
 
         void Save();
     }
