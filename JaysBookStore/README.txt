@@ -129,7 +129,12 @@ Created new UnitOfWork and its interface file
  2023-11-20
  1750
  Restarted the whole project with new name - JaysBookStore and the first migration of part 2 - 20231120225015_AddDefaultIdentityMigration
+
  1755
  Added the second migration - 20231120225444_addCategory
+
  1757
  Added the third migration - 20231120225735_AddedNewCategory
+
+ 1841
+ Created New model CoverType.cs 
