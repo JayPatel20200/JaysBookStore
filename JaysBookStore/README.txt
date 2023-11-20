@@ -125,3 +125,7 @@ Created new UnitOfWork and its interface file
  Modified CategoryController.cs
  2044
  Added the Delete functions in category.js and run the application
+
+ 2023-11-20
+ 1750
+ Restarted the whole project with new name - JaysBookStore and the first migration of part 2 - 20231120225015_AddDefaultIdentityMigration
