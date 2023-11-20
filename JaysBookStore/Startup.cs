@@ -1,4 +1,6 @@
 using JayBook.DataAccess.Data;
+using JayBook.DataAccess.Repository;
+using JayBook.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +37,7 @@ namespace JaysBookStore
 
             services.AddDefaultIdentity<IdentityUser>()//options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
