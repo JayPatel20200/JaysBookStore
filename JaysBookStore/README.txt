@@ -146,3 +146,7 @@ Created new UnitOfWork and its interface file
  Added the Javascript file and corrected some referencing error in IUnitOfWork and UnitOfWork
  1905
  Added new model in models project and update the applicationDbContext and migrate it - 20231121000522_addProductToDb
+ 1908
+ Create new migration - 20231121000758_addValidationToProduct and upate database
+ 1711
+ Created product Repository and interface for it and added to UnitOfWork and IUnitOfWork 
