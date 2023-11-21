@@ -142,3 +142,7 @@ Created new UnitOfWork and its interface file
  Created new class and interface for coverTypeRepository and added the migration - 20231120234643_CoverTypeDb
  1852
  Created CoverTypeController and index and upsert 
+ 1903
+ Added the Javascript file and corrected some referencing error in IUnitOfWork and UnitOfWork
+ 1905
+ Added new model in models project and update the applicationDbContext and migrate it - 20231121000522_addProductToDb
