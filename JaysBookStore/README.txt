@@ -159,3 +159,6 @@ Created new UnitOfWork and its interface file
 
  1917
  Created prodcut controller and model and install the required package 
+ 2023-11-26
+ 1529
+ Create new upsert view for the product and added the code from the given file on blackboard and also added the tiny textarea

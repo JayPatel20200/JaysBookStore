@@ -1,6 +1,9 @@
 ﻿using JayBook.DataAccess.Repository.IRepository;
+using JayBook.Models;
+using JayBook.Models.ViewModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +27,7 @@ namespace JaysBookStore.Areas.Admin.Controllers
             return View();
         }
 
-        /*  public IActionResult Upsert(int? id)
+          public IActionResult Upsert(int? id)
           {
               ProductVM productVM = new ProductVM()
               {
@@ -50,7 +53,7 @@ namespace JaysBookStore.Areas.Admin.Controllers
                   return NotFound();
               }
               return View(productVM);
-          } */
+          } 
         //API calls here
         #region API CALLS
         [HttpGet]
