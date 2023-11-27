@@ -22,8 +22,4 @@
     <ProjectReference Include="..\JayBook.Utility\JayBook.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\images\products\" />
-  </ItemGroup>
-
 </Project>

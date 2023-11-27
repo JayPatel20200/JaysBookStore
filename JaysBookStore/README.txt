@@ -168,3 +168,5 @@ Created new UnitOfWork and its interface file
  updated productcontroller with http post and Http delete
  1723
  Added IUnitOfWork to customer controller
+ 1734
+Update the index.cshtml for the item display and update the startup.cs.
