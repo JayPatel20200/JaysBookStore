@@ -33,7 +33,7 @@ namespace JayBook.Models
 
         [Required]
         public int CoverTypeId { get; set; }    // foreign key reference
-        [ForeignKey("CategoryId")]
+        [ForeignKey("CoverTypeId")]
         public CoverType CoverType { get; set; }
     }
 }
