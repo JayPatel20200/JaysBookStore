@@ -170,3 +170,5 @@ Created new UnitOfWork and its interface file
  Added IUnitOfWork to customer controller
  1734
 Update the index.cshtml for the item display and update the startup.cs.
+1738
+Ran the Application to check for any errors and did the last commit
