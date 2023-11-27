@@ -164,5 +164,7 @@ Created new UnitOfWork and its interface file
  Create new upsert view for the product and added the code from the given file on blackboard and also added the tiny textarea
 
  2023-11-27
- 1518
+ 1718
  updated productcontroller with http post and Http delete
+ 1723
+ Added IUnitOfWork to customer controller
